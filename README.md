@@ -5,6 +5,7 @@ This repository contains standard scenarios for benchmarking navigation agent pe
 The scenarios are defined in CSV (comma separated value) format files where each row provides the state for one episode. The following column values are provided for each episode:
 
 - `episodeId`: integer id for given episode within the set.
+- `split`: `train`, `val`, or `test` indicating split for the episode.
 - `task`: string id for task type, one of `p` for `point_goal`, `o` for `object_goal`, or `r` for `room_goal`.
 - `sceneId`: id of scene within which episode takes place.
 - `level`: integer id of level (typically floor) within scene.
